@@ -1,5 +1,4 @@
-/***/
-body {
+* {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -7,7 +6,12 @@ body {
   opacity: 0.9;
   text-align: center;
 }
-/*header section*/
+h2,
+h3,
+h4 {
+}
+/* header section */
+
 header {
   border-bottom: 1px solid seashell;
   height: 69px;
@@ -17,90 +21,75 @@ header {
   align-items: center;
   background-color: black;
 }
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
 .flexbox {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-/*.logo*/
-header img {
-  height: 50px;
-  /*position: absolute;*/
-  padding-left: 10px;
-}
+
 nav {
   text-align: right;
+}
 
-}
 nav span {
-  text-decoration: underline;
   display: inline-block;
-  padding: 20px 10px;
+  text-decoration: underline;
 }
-a {
-  color: seashell;
-}
-/* main section*/
+
+/* main section */
 .main {
   padding-top: 69px;
   width: 1200px;
-  opacity: inherit;
 }
-/*mission section*/
+
+/* mission stmnt */
 #mission {
-  /*background-image: url(images/img-mission-background.jpg);*/
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-image: url(/Users/ryn/projects/teacozy/resources/images/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
-  padding-top: 70px;
 }
-#mission .flexbox {
-}
-#mission .content {
-  background-color: inherit;
+
+#misson .content {
   width: 100%;
 }
-.content {
 
-}
-/*tea section*/
+/* tea shop */
 #shop {
   width: 1000px;
-  height: 700px;
-
 
 }
-.container{
-
-}
-.tea {
-
-}
-.tea img {
+.item img {
   height: 200px;
   width: 300px;
   display: block;
+  margin: 10px;
+
 }
-.tea p {
-  display: block;
-  text-align: center;
-}
-/*locations*/
+
+/* location section */
 #locations {
-  /*background-image: url("images/img-locations-background.jpg");*/
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-  height: 500px;
-
-}
-#locations .flexbox{
-
+  margin: 20px;
+  opacity: 1.0;
 }
 .location {
-
+  
 }
-#contact {
+/* contact section */
 
+.contact {
+  height: 200px;
 }
+
+/* footer section */
+
 footer {
-
+  text-align: left;
+  padding-left: 20px;
+  font-weight: bold;
 }
