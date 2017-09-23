@@ -1,0 +1,69 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* HEADER SECTION */
+header {
+  position: fixed;
+  z-index: 5;
+  border-bottom: 1px solid seashell;
+  /*display: flex;*/
+  margin: 0 auto;
+  height: 69px;
+  width: 100%;
+  /*padding-top: 10px;*/
+  align-items: center;
+  background-color: inherit;
+}
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* NAVIGATION SECTION */
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+nav {
+  text-align: right;
+  display: block;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* MAIN CONTAINER */
+/*need to figure out how to hide main contianer behind header at top*/
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+/* MISSION SECTION */
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 69px;
+}
+#mission .content {
+  width: 100%;
+  margin: auto;
+  background-color: black;
+}
+
+/* TEA SECTION */
