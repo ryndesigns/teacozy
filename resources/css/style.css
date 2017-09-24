@@ -56,7 +56,7 @@ nav span {
 
 /* MISSION SECTION */
 #mission {
-  height: 700px;
+  height: 700px; /*why did adding height here pad the next section?*/
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   padding-top: 69px;
 }
@@ -71,6 +71,7 @@ nav span {
   width: 1000px;
   margin: auto;
   padding-top: 69px;
+  height: 700px;
 }
 
 .item img {
@@ -84,4 +85,31 @@ nav span {
 }
 .item {
   margin: 5px;
+}
+
+/* LOCATION SECTION */
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-top: 69px;
+  height: 500px;
+}
+.location {
+  width: 300px;
+  background-color: black;
+  margin: 15px 40px;
+  display: flex;
+  flex-direction: column;
+}
+#locations .flex-container {
+  margin: auto;
+}
+/* CONTACT SECTION */
+.contact {
+  height: 200px;
+}
+
+/* FOOTER SECTION */
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
